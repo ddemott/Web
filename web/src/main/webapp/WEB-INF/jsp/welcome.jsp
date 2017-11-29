@@ -5,7 +5,7 @@
 <head>
 
 <!-- Access the bootstrap Css like this,
-		Spring boot will handle the resource mapping automcatically -->
+		Spring boot will handle the resource mapping automatically -->
 <link rel="stylesheet" type="text/css"
 	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
 
@@ -46,5 +46,4 @@
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
