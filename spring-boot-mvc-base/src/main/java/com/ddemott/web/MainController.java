@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
 	// inject via application.properties
-	@Value("${welcome.message:test}")
-	private String message = "Hello World";
+	@Value("${welcome.message}")
+	private String message = "Anonymous User"; // if no message, default value is after the equals
 
 	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
