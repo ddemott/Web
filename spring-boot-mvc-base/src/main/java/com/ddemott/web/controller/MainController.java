@@ -1,4 +1,4 @@
-package com.ddemott.web;
+package com.ddemott.web.controller;
 
 import java.util.Map;
 
